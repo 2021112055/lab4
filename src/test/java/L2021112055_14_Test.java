@@ -22,7 +22,7 @@ public class L2021112055_14_Test {
         String s5="0011255245";//含有前导0
         String[] expected1 = {"255.255.11.135", "255.255.111.35"};
         String[] expected2 = {"0.0.0.0"};
-        String[] expected3 = {"1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.4"};
+        String[] expected3 = {"1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"};
         String[] expected4 = {};
         String[] expected5 = {};
         assertArrayEquals(expected1, solution.restoreIpAddresses(s1).toArray(new String[0]));
